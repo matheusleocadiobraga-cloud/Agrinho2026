@@ -2,20 +2,65 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Os efeitos colaterais do agro</title>
+    <title>Efeitos do Agro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-       <div>
-          <p>O agronegócio é importante para a economia, mas pode causar impactos como desmatamento, poluição da água e do solo por agrotóxicos e perda da biodiversidade. Por isso, é necessário adotar práticas mais sustentáveis para reduzir esses efeitos.
+<button id="modo" onclick="trocarTema()">Modo Escuro</button>
+
+    <h1>Os Efeitos Colaterais do Agronegócio</h1>
+
+<p>
+    O agronegócio é essencial para a produção de alimentos, 
+    geração de empregos e desenvolvimento econômico. No entanto,
+    algumas práticas podem causar impactos ambientais e sociais quando não são realizadas de forma sustentável. 
+    Conhecer esses efeitos é importante para buscar soluções que conciliem produção e preservação.
 </p>
-          <button class="bitinho" data-proximo="1"></button>
-          <button class="bitinho" data-proximo="2"></button>
-        </div>
-   </main>  
+
+<div class="usuario">
+
+    <h2>Coloque seu nome</h2>
+
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
+
+    <label for="idade">Idade:</label><br>
+    <input type="number" id="idade" placeholder="Digite sua idade"><br><br>
+
+    <button onclick="usuario()">Entrar</button>
+
+</div>
+
+<p id="mensagem"></p>
 
 
+<h2>Impactos Ambientais</h2>
+<p>
+    Algumas práticas agrícolas podem levar à degradação do solo, à poluição da água e ao aquecimento global. A utilização excessiva de pesticidas e fertilizantes pode contaminar os recursos hídricos e afetar a biodiversidade.
+</p>
+
+<h2>Impactos Sociais</h2>
+<p>
+    O agronegócio pode gerar empregos e promover o desenvolvimento rural, mas também pode resultar em desigualdades sociais, exploração do trabalho e perda de terras indígenas.
+</p>
+
+<h2>Impactos na Saúde</h2>
+<p>
+    A exposição a pesticidas e outros químicos utilizados na agricultura pode ter impactos na saúde humana, incluindo problemas respiratórios, neurológicos e até mesmo câncer em casos extremos.
+</p>
+
+<h2>Soluções Sustentáveis</h2>
+<p>
+    Implementar práticas agrícolas sustentáveis, como a agricultura orgânica, o uso de tecnologias limpas e a conservação dos recursos naturais, pode ajudar a minimizar os impactos negativos do agronegócio.
+</p>
+
+<h2>Curiosidades</h2>
+<p>A preservação das matas ciliares protege rios e nascentes.</p>
+<p>O Brasil é o maior produtor de carne bovina do mundo.</p>
+<p>Nem toda produção agrícola utiliza a mesma quantidade de defensivos.</p>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
